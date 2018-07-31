@@ -47,6 +47,8 @@ class Song
     song.name = split_filename[0]
     song
   end 
+  
+  def self.create_from_filename(filename)
 end
 
 
