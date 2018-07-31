@@ -41,10 +41,9 @@ class Song
     @@all.sort_by {|song| song.name}
   end 
   
-  
-  
-  
-
+  def self.new_from_filename(filename)
+    name_array = filename.chomp(".mp3")
+  end 
 end
 
 
