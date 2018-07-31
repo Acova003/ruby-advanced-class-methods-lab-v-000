@@ -38,6 +38,7 @@ class Song
   end 
   
   def self.alphabetical
+    song = self.new
     song.all.sort
   end 
   
